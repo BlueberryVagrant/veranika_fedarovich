@@ -171,16 +171,16 @@
                 <form method="post" action="http://fe.it-academy.by/TestForm.php">
                     <fieldset>
                         <legend>Строка поиска</legend>
-                        <label for="word"></label>
-                        <input type="text" class="input-words" placeholder="Только русские буквы">
-                        <br>
-                        <em>Телефонный номер в формате </em>
-                        <br>
-                        <em>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</em>
+                        <label for="rus_letters"></label>
+                        <input type="text" id="rus_letters" name="russian_letters" placeholder="Только русские буквы"
+                        pattern="^[А-Яа-я]+">
+                        <p><em>Телефонный номер в формате </em><br>
+                        <em>+ХХХ-ХХ-ХХХХХХХ, где Х - любое число</em></p>
                         <label for="number"></label>
-                        <input type="text" class="input-number"  >
+                        <input type="text" id="number" name="phone_number" placeholder="+375-29-1234567"
+                        pattern="[\+]\d{3}[\-]\d{2}[\-]\d{7}">
                         <br>
-                        <input type="submit" value="проверить">
+                        <input type="submit" value="Проверить">
                     </fieldset>
                 </form>
             </th>
