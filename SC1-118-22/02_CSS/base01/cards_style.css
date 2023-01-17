@@ -1,0 +1,34 @@
+.block{
+    width: 7.85%;
+    float: left;
+}
+.nine_of_hearts{
+    background-image: url('cards.png');
+    background-repeat: no-repeat;
+    background-position: -435px -1392px;
+    width: 140px; height: 190px;
+}
+.queen_of_spades{
+    background-image: url('cards.png');
+    background-repeat: no-repeat;
+    background-position: -1px -1790px;
+    width: 140px; height: 190px;
+}
+.nine_tambourine{
+    background-image: url('cards.png');
+    background-repeat: no-repeat;
+    background-position: -290px -1395px;
+    width: 140px; height: 190px;
+}
+.ace_of_the_cross{
+    background-image: url('cards.png');
+    background-repeat: no-repeat;
+    background-position: -145px -2190px;
+    width: 140px; height: 190px;
+}
+.joker{
+    background-image: url('cards.png');
+    background-repeat: no-repeat;
+    background-position: -1px -2390px;
+    width: 140px; height: 190px;
+}
